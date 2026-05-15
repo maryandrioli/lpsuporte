@@ -13,7 +13,7 @@ module.exports = {
 
   MENSAGENS: {
     boas_vindas:
-      `Olá! 👋 Bem-vindo ao suporte do *Passaporte para Aprendizagem* 🌍\n\n`
+      `Olá! 👋 Bem-vindo ao suporte do *Passaporte para Aprendizagem (Learning Passport)* 🌍\n\n`
       + `Sou o assistente virtual do projeto Territórios Conectados.\n\n`
       + `Qual é o seu *nome*?`,
 
