@@ -14,7 +14,7 @@ module.exports = {
   MENSAGENS: {
     boas_vindas:
       `Olá! 👋 Bem-vindo ao suporte do *Passaporte para Aprendizagem* 🌍\n\n`
-      + `Sou o assistente virtual do projeto Territórios Conectados.\n\n`
+      + `Sou o assistente virtual do *Passaporte para a Aprendizagem* (Learning Passport) do projeto Territórios Conectados.\n\n`
       + `Qual é o seu *nome*?`,
 
     solicitar_telefone: (nome) =>
@@ -43,13 +43,13 @@ module.exports = {
     pos_resposta_automatica:
       `Isso resolveu sua dúvida?\n\n`
       + `1️⃣ ✅ Sim — problema resolvido!\n`
-      + `2️⃣ ❌ Não — abrir ticket para atendimento humano\n`
+      + `2️⃣ ❌ Não — abrir ticket para atendimento humano e aguardar\n`
       + `3️⃣ 🔙 Voltar ao menu anterior`,
 
     // Exibido após ticket registrado — caminho (b)
     ticket_aberto: (id) =>
       `✅ Ticket *${id}* registrado com sucesso!\n\n`
-      + `Um ponto focal entrará em contato em breve.\n`
+      + `Aguarde para receber contato humano .\n`
       + `Guarde este número para acompanhar sua solicitação.\n\n`
       + `O que deseja fazer agora?\n\n`
       + `1️⃣ 🔄 Retornar ao início\n`
@@ -132,7 +132,7 @@ Use no máximo 3 parágrafos curtos. Não use markdown complexo — apenas *negr
 Informações técnicas importantes que você deve conhecer:
 
 ACESSO À PLATAFORMA:
-- URL: brasil.learningpassport.org
+- URL: brasil.learningpassport.org ou acesse https://passaporteparaaprendizagem.casadaarvore.art.br/ para conhecer melhor a iniciativa e o roteiro indicado para você.
 - Login: por nome de usuário e senha (o login por número de telefone foi descontinuado em outubro/2025)
 - Para criar conta: clicar em "Sign up now" na tela de login
 - Para recuperar senha: usar o link "Forgot your password?" na tela de login
